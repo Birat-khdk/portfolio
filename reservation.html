@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MealMatrix - Reservation</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+    <header>
+        <h1>Meal Matrix Restaurant System</h1>
+        <nav>
+            <a href="#" data-section="home"><i class="fas fa-home"></i> Home</a>
+            <a href="#" data-section="about"><i class="fas fa-info-circle"></i> About Us</a>
+            <a href="#" data-section="menu"><i class="fas fa-utensils"></i> Menu</a>
+            <a href="#" data-section="orders"><i class="fas fa-shopping-cart"></i> Orders</a>
+            <a href="#" data-section="reservation"><i class="fas fa-calendar-alt"></i> Reservation</a>
+            <a href="#" data-section="login"><i class="fas fa-sign-in-alt"></i> Login</a>
+            <a href="#" data-section="contact"><i class="fas fa-envelope"></i> Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="reservation" class="section">
+            <h2>Book Table</h2>
+            <div class="form">
+                <input type="text" id="rname" placeholder="Name">
+                <input type="date" id="rdate">
+                <input type="time" id="rtime">
+                <button onclick="bookTable()">Book</button>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
